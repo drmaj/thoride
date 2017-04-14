@@ -8,7 +8,8 @@ let thoride_configuration_files = [
       \'config/.editor.vimrc',
       \'config/.plugins.vimrc',
       \'config/.autocommands.vimrc',
-      \'config/.commands.vimrc'
+      \'config/.commands.vimrc',
+      \'config/.python.vimrc'
       \]
 
 for file in thoride_configuration_files

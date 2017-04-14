@@ -46,6 +46,9 @@ PLUGINS="$PLUGINS https://github.com/Valloric/YouCompleteMe"
 # Syntastic
 #PLUGINS="$PLUGINS https://github.com/vim-syntastic/syntastic.git"
 
+# Flake-8
+#PLUGINS="$PLUGINS https://github.com/nvie/vim-flake8"
+
 # SimplyFold
 #PLUGINS="$PLUGINS https://github.com/tmhedberg/SimpylFold"
 
