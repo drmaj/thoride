@@ -1,0 +1,2 @@
+let g:NERDTreeMouseMode = 2                                 " Single-click to expand the directory, double-click to open the file
+let g:NERDTreeShowHidden = 1                                " Show hidden files
