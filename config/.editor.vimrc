@@ -33,7 +33,7 @@ if has("gui_macvim")
     colorscheme solarized                                                   " Set the color scheme
     set background=dark
     set guifont=DejaVu\ Sans\ Mono\ for\ Powerline                          " Set the nice Powerline font so Airline could make use of it
-    set lines=999 columns=999                                               " Run maximized
+    set lines=45 columns=140                                               " Run maximized
 else                                                                        " Console Vim settings
     set t_Co=256                                                            " Set the color scheme
     colorscheme zenburn

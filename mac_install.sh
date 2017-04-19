@@ -36,6 +36,7 @@ print_usage(){
 
 # Nerdtree
 PLUGINS="$PLUGINS https://github.com/scrooloose/nerdtree"
+PLUGINS="$PLUGINS https://github.com/jistr/vim-nerdtree-tabs"
 
 # # Clang_complete
 # PLUGINS="$PLUGINS https://github.com/Rip-Rip/clang_complete"
@@ -65,8 +66,8 @@ PLUGINS="$PLUGINS https://github.com/vim-airline/vim-airline-themes"
 # A
 PLUGINS="$PLUGINS https://github.com/vim-scripts/a.vim"
 
-# Auto-close
-PLUGINS="$PLUGINS https://github.com/Townk/vim-autoclose"
+# Auto Pairs
+PLUGINS="$PLUGINS https://github.com/jiangmiao/auto-pairs"
 
 # Multiple-cursors
 PLUGINS="$PLUGINS https://github.com/terryma/vim-multiple-cursors.git"
@@ -174,7 +175,7 @@ echo "--------------------------------------------------------------------------
 echo "$passwd" | sudo -S mkdir -p $THORIDE_INSTALL_DIR
 echo "$passwd" | sudo -S cp -R ./config $THORIDE_INSTALL_DIR
 echo "$passwd" | sudo -S cp ./.vimrc $THORIDE_INSTALL_DIR
-echo "$passwd" | sudo -S cp ./res $THORIDE_INSTALL_DIR
+echo "$passwd" | sudo -S cp -R ./res $THORIDE_INSTALL_DIR
 #echo "$passwd" | sudo -S cp -R . $THORIDE_INSTALL_DIR
 
 # # Make Thoride accessible via 'Applications' menu and via application launcher

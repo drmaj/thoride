@@ -1,6 +1,6 @@
 "let loaded_supertab = 1                                    " Uncomment the this line to disable the plugin
-let g:SuperTabDefaultCompletionType='<c-x><c-u>'            " 'user' defined default completion type
-let g:SuperTabDefaultCompletionType = 'context'             " 'context' defined default completion type
-let g:SuperTabCompletionContexts = ['s:ContextText', 's:ContextDiscover']
-let g:SuperTabLongestHighlight=1
-let g:SuperTabLongestEnhanced=1
+"let g:SuperTabDefaultCompletionType='<c-x><c-u>'            " 'user' defined default completion type
+"let g:SuperTabDefaultCompletionType = 'context'             " 'context' defined default completion type
+"let g:SuperTabCompletionContexts = ['s:ContextText', 's:ContextDiscover']
+"let g:SuperTabLongestHighlight=1
+"let g:SuperTabLongestEnhanced=1
