@@ -32,7 +32,7 @@ if has("gui_macvim")
     set guioptions=agimtTr                                                  " Show 'Menu' + 'Toolbar' + 'Right Scrollbar'
     colorscheme solarized                                                   " Set the color scheme
     set background=dark
-    set guifont=DejaVu\ Sans\ Mono\ for\ Powerline                          " Set the nice Powerline font so Airline could make use of it
+    set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h16                          " Set the nice Powerline font so Airline could make use of it
     set lines=45 columns=140                                               " Run maximized
 else                                                                        " Console Vim settings
     set t_Co=256                                                            " Set the color scheme
