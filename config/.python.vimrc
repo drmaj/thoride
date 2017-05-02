@@ -17,7 +17,12 @@ highlight BadWhitespace ctermbg=red guibg=red
 au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
 autocmd FileType python nnoremap <buffer> <F9> :exec '!python' shellescape(@%, 1)<cr>
+autocmd FileType python nnoremap <buffer> <F10> :exec '!python3' shellescape(@%, 1)<cr>
 
 autocmd FileType python nnoremap <buffer> <F8> :exec 'ConqueTermTab python -m pudb.run ' . shellescape(@%,1)  <cr>
 
 let python_lighlight_all=1
+
+autocmd FileType python inoremap <cr> <C-o>A
+
+autocmd FileType json inoremap <cr> <C-o>A
