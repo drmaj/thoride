@@ -185,7 +185,7 @@ if [ ${#libclang_paths[@]} != 0 ]; then
 fi
 
 # Make thoride accessible in the terminal
-#echo "alias thoride=\"gvim -u /opt/thoride/.vimrc\"" >> $HOME/.bashrc
+echo "alias thoride=\"gvim -u /opt/thoride/.vimrc\"" >> $HOME/.bashrc
 
 echo -e "\n"
 echo "----------------------------------------------------------------------------"
