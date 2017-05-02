@@ -1,3 +1,4 @@
 let g:NERDTreeMouseMode = 2                                 " Single-click to expand the directory, double-click to open the file
 let g:NERDTreeShowHidden = 1                                " Show hidden files
 let g:nerdtree_tabs_open_on_console_startup = 1
+let g:NERDTreeWinSize=20
